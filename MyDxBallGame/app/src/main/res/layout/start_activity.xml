@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="40dp"
+        android:text="DX BALL"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/PLAY"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="97dp"
+        android:background="#00b300"
+        android:onClick="onClick"
+        android:text="PLAY GAME"
+        android:textColor="#f5f5f5"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/EXIT"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:background="#00b300"
+        android:onClick="onClick"
+        android:text="EXIT"
+        android:textColor="#f5f5f5"
+        android:textSize="22dp" />
+
+
+</LinearLayout>
